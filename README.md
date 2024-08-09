@@ -12,6 +12,7 @@ Dependencies: Eureka Server, Spring Boot.
 This module acts as the gateway for all client requests. It will route requests to the appropriate microservices.
 
 Dependencies: Spring Cloud Gateway, Eureka Discovery Client, Spring Boot.
+
 4. Service ProductService, OrderService, PaymentService (Microservices)
 These are the microservices which contain business logic and communicate with each other through Feign clients.
 
